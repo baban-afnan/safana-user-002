@@ -52,7 +52,7 @@
                           <a href="{{ route('admin.services.index') }}" class="{{ request()->routeIs('admin.services.*') ? 'active' : '' }}">Services</a>
                         </li>
                         <li><a href="{{ route('admin.data-variations.index') }}" class="{{ request()->routeIs('admin.data-variations.*') ? 'active' : '' }}">Data Services</a></li>
-                        <li><a href="#">SME Data</a></li>
+                        <li><a href="{{ route('admin.sme-data.index') }}" class="{{ request()->routeIs('admin.sme-data.index') ? 'active' : '' }}">SME Data</a></li>
                     </ul>
                 </li>
 

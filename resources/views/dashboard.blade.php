@@ -61,9 +61,9 @@
 
         <!-- Statistics Cards -->
         <div class="row g-4 mb-4">
-            <!-- Total Wallet Balance (Total Volume) -->
+            <!-- Total Wallet Balance -->
             <div class="col-xl-3 col-lg-6">
-                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-purple">
+                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-primary">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
@@ -80,7 +80,7 @@
 
             <!-- Today's Credit -->
             <div class="col-xl-3 col-lg-6">
-                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-green">
+                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-success">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
@@ -97,7 +97,7 @@
 
             <!-- Today's Debit -->
             <div class="col-xl-3 col-lg-6">
-                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-red">
+                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-warning">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>
@@ -114,7 +114,7 @@
 
             <!-- Total Users -->
             <div class="col-xl-3 col-lg-6">
-                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-blue">
+                <div class="card border-0 shadow-sm rounded-4 stat-card card-gradient-info">
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between">
                             <div>

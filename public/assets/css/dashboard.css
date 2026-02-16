@@ -64,3 +64,78 @@
         font-size: 14px !important;
     }
 }
+
+/* Statistics Card Styles */
+.stat-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.stat-card .card-body {
+    position: relative;
+    z-index: 1;
+}
+
+.stat-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.icon-container {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Premium Gradients */
+.card-gradient-primary {
+    background: linear-gradient(135deg, #002fba 0%, #0056fb 100%) !important;
+}
+
+.card-gradient-success {
+    background: linear-gradient(135deg, #03c95a 0%, #02e66b 100%) !important;
+}
+
+.card-gradient-info {
+    background: linear-gradient(135deg, #1b84ff 0%, #17c1ff 100%) !important;
+}
+
+.card-gradient-warning {
+    background: linear-gradient(135deg, #ffc107 0%, #ff8c00 100%) !important;
+}
+
+/* Decorative Circles for context */
+.stat-card::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+}
